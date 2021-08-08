@@ -18,3 +18,59 @@ h1 {
   font-size: 1.5em;
   font-weight: 700;
 }
+
+.main-content {
+  width: 95%;
+  margin: 50px auto; /* Vertical  Horizontal */
+}
+
+.text-description {
+  padding: 10px 0px 15px 0px;
+  line-height: 1.5em;
+}
+
+.slider-label {
+  font-weight: 700;
+}
+
+.map-slider {
+  margin: 10px 0px 10px 0px;
+  width: 100%;
+}
+
+
+/* Tablet Styles */
+@media screen and (min-width: 450px) and (max-width: 960px) {
+  .main-content {
+    width: 95%;
+  }
+  .map-slider {
+    width: 75%;
+  }
+}
+
+/* Desktop Styles */
+@media screen and (min-width: 961px) {
+  .main-content {
+    width: 72%;
+  }
+  .map-slider {
+    width: 75%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .page {
+    width: 1440px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .page {
+    width: 1440px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+  }
+}
