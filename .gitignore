@@ -1,0 +1,6 @@
+# .gitignore file
+env
+app-map-avg-income-districts-cph.ipynb
+.ipynb_checkpoints
+.DS_Store
+data/.DS_Store
